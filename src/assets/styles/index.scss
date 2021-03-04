@@ -1,0 +1,128 @@
+body {
+  height: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none
+}
+
+label {
+  font-weight: 700;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+#app {
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.no-padding {
+  padding: 0px !important;
+}
+
+.padding-content {
+  padding: 4px 0;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+a,
+a:focus,
+a:hover {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+
+div:focus {
+  outline: none;
+}
+
+.fr {
+  float: right;
+}
+
+.fl {
+  float: left;
+}
+
+.pr-5 {
+  padding-right: 5px;
+}
+
+.pl-5 {
+  padding-left: 5px;
+}
+
+.block {
+  display: block;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.inlineBlock {
+  display: block;
+}
+
+@font-face {
+  font-family: 'DS-Digital';
+  src: url('~@/assets/font/DS-DIGII-3.eot'),
+    url('~@/assets/font/DS-DIGII-3.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HYXiaoBoMeiYanTiW';
+  src: url('~@/assets/font/汉仪晓波美妍体W.eot'),
+    url('~@/assets/font/汉仪晓波美妍体W.TTF') format('truetype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HYChengXingJ';
+  src: url('~@/assets/font/HYChengXingJ.eot'),
+    url('~@/assets/font/HYChengXingJ.TTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HYCuJianHeiJ';
+  src: url('~@/assets/font/汉仪粗简黑简.eot'),
+    url('~@/assets/font/汉仪粗简黑简.TTF') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}

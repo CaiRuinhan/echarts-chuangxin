@@ -1,0 +1,235 @@
+.top {
+  margin-top: 30px;
+  margin-left: 20px;
+  ul {
+    display: flex;
+
+    li {
+      flex-direction: column;
+      width: 344px;
+      height: 100px;
+      margin-right: 40px;
+      background-image: url('../../assets/images/product-info/344x100.png');
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      span {
+        margin-top: 12px;
+        display: block;
+        height: 48px;
+        font-size: 48px;
+        text-align: center;
+        font-family: 'DS-Digital';
+        font-weight: bold;
+        color: #00E2FC;
+      }
+      .font-bottom {
+        margin-top: 8px;
+        height: 20px;
+        font-size: 20px;
+        text-align: center;
+        font-family: Microsoft YaHei;
+        color: #FFFFFF;
+      }
+      .font-little{
+        font-size:12px;
+        color:#fff;
+        display: inline;
+      }
+      &:hover{
+        span{
+         color: '#23fcff';
+         font-size: 58px;
+        }
+        .font-bottom{
+         font-size: 24px;
+        }
+        .font-little{
+          font-size:14px;
+        }
+     }
+    }
+  }
+}
+
+.main {
+  margin-top: 20px;
+  margin-left: 20px;
+  position: relative;
+  &-left {
+    float: left;
+    &-top {
+      width: 440px;
+      height: 495px;
+      background-image: url('../../assets/images/product-info/440x495.png');
+      margin-bottom: 20px;
+      &-content{
+        padding: 0px 25px 10px 30px;
+        font-size: 16px;
+        color:#fff;
+        &-up {
+          height: 370px;
+          border-bottom: 2px solid  #2B82F5;
+          .product-introduction{
+            padding-top:12px;
+            width:100%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+          }
+          .dec{
+            padding-top:5px;
+            height:100%;
+            text-indent:32px;
+            display: block;
+            line-height:30px;
+            white-space:normal; 
+            max-height:270px;
+            word-break: break-all;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: 9;
+            -webkit-box-orient: vertical;
+          }
+        }
+        &-bottom {
+          color: #fff;
+          font-size:14px;
+          padding:12px 0 0 20px;
+          position: relative;
+          .time-line-data{
+            display:flex;
+            align-items: center;
+            margin-top:5px;
+            .circle{
+              display:inline-block;
+              height:14px;
+              width:14px;
+              border-radius: 50%;;
+              background-color: #2B82F5;
+              margin-right:20px;
+            }
+            span {
+              color: #167af6;
+              font-size:20px;
+              font-weight: bold;
+              display: inline-block;
+              font-family: 'Alibaba-PuHuiTi'L;
+            }
+            .time-line-font{
+              color: #f3aa72;
+            }
+            
+          }
+          .link-right{
+            position: absolute;
+            top:25px;
+            height:33px;
+            width:8px;
+            border-right:solid #167af6 1px;
+          }
+        }
+      }
+        
+    }
+
+    &-bottom {
+      width: 440px;
+      height: 298px;
+      color:#fff;
+      background-image: url('../../assets/images/product-info/440x298.png');
+      .part-content{
+        padding: 10px 20px;
+        &-main {
+          height: 80px;
+          line-height:20px;
+          .light-pic{
+            display: inline-block;
+            width:32px;
+            height:32px;
+            background-image: url('../../assets/images/product-info/point.png');
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+          }
+          // .light-content{
+            
+          // }
+        }
+      }
+    }
+  }
+
+  &-center {
+    margin-left: 460px;
+
+    &-top {
+      width: 960px;
+      height: 358px;
+      margin-bottom: 20px;
+      position: relative;
+      .tooltip{
+        position: absolute;
+        left: 19px;
+        top: 10px;
+        font-family: 'HYCuJianHeiJ';
+        font-size: 20px;
+     
+       
+     color: #fff;
+
+      }
+      // canvas{
+      //   width: 100%;
+      //   height: 100%;
+      // }
+    }
+
+    &-center {
+      width: 960px;
+      height: 208px;
+      margin-bottom: 20px;
+      background-image: url('../../assets/images/product-info/960x208.png');
+     position: relative;
+     .incomeFlag{
+       position: absolute;
+       top: 104px;
+       left: 430px;
+       color: #fff;
+     }
+    }
+
+    &-bottom {
+      width: 960px;
+      height: 208px;
+      background-image: url('../../assets/images/product-info/960x208.png');
+    }
+  }
+
+  &-right {
+    position: absolute;
+    top: 3px;
+    right: 20px;
+    width: 440px;
+    height: 813px;
+
+    &-top {
+      width: 440px;
+      height: 282px;
+      margin-bottom: 20px;
+      background-image: url('../../assets/images/product-info/440x282.png');
+
+    }
+    &-center{
+      width: 440px;
+      height: 282px;
+      margin-bottom: 20px;
+      background-image: url('../../assets/images/product-info/440x282.png');
+    }
+    &-bottom{
+      width: 440px;
+      height: 208px;
+      margin-bottom: 20px;
+      background-image: url('../../assets/images/product-info/活跃用户数440x208.png');
+    }
+  }
+}

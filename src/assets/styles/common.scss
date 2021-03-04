@@ -1,0 +1,36 @@
+.page-wrap {
+  width: 1920px;
+  height: 1080px;
+  background-image: url('../../assets/images/common/1920x1080.png');
+  // background-color: #111e24;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  overflow: hidden;
+}
+// .main{
+//   margin-top: 10px;
+//   width: 100%;
+//   height: 981px;
+// }
+
+.part-title{
+  display: block;
+  text-align: left;
+  // width: 195px;
+  // height: 37px;
+  font-size: 20px;
+  font-family: 'HYCuJianHeiJ';
+
+  margin-left: 19px;
+  // font-family:  "Helvetica Neue";
+  font-weight: bold;
+  color: #FEFEFE;
+  line-height: 37px;
+  letter-spacing: 5px;
+}
+.part-content{
+  width: 100%; 
+  height: calc(100% - 37px);
+  // z-index: 9999;
+}

@@ -1,0 +1,82 @@
+.page-wrap {
+  position: relative;
+
+  .left {
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+
+    ul {
+      li {
+        width: 440px;
+        height: 298px;
+        margin-bottom: 20px;
+        background-image: url('../../assets/images/experience/440x298.png');
+
+        p {
+          margin-bottom: 8px;
+          padding:8px 20px 0px 32px;
+          font-size: 16px;
+          font-family: 'Microsoft YaHei';
+          font-weight: bold;
+          color: #FEFEFE;
+          opacity: 0.6;
+          span{
+           &:nth-child(2){
+             margin-left: 33px;
+           }
+           &:nth-child(3){
+            float:right;
+           }
+          }
+        }
+      }
+    }
+  }
+
+  .center {
+    margin-top: 30px;
+    margin-left: 480px;
+
+    &-top {
+      width: 960px;
+      height: 514px;
+      // border: 1px solid red;
+      margin-bottom: 20px;
+    }
+
+    &-center {
+      width: 960px;
+      height: 190px;
+
+      margin-bottom: 20px;
+      background-image: url('../../assets/images/experience/960x190.png');
+    
+    }
+
+    &-bottom {
+      width: 960px;
+      height: 190px;
+
+      margin-bottom: 20px;
+      background-image: url('../../assets/images/experience/960x190.png');
+
+    }
+  }
+
+  .right {
+    position: absolute;
+    top: 120px;
+    right: 20px;
+
+    ul {
+      li {
+        width: 440px;
+        height: 298px;
+        margin-bottom: 20px;
+        background-image: url('../../assets/images/experience/440x298.png');
+
+      }
+    }
+  }
+}

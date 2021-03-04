@@ -1,0 +1,276 @@
+.page-wrap {
+  position: relative;
+
+  .product-evaluation {
+    position: absolute;
+    top: 53px;
+    right: 108px;
+    width: 133px;
+    height: 41px;
+    background-image: url('../../assets/images/product/product.png');
+
+    &:hover {
+      background-image: url('../../assets/images/product/140x36.png');
+    }
+
+  }
+
+  .left {
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+
+    ul {
+      li {
+        width: 480px;
+        height: 456px;
+        background-image: url('../../assets/images/product/480X456.png');
+        margin-bottom: 20px;
+      }
+    }
+    .three-bg{
+      width: 458px;
+      height: 89px;
+      background-image: url('../../assets/images/product/funnel-bg.png');
+      opacity:0.2;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin: 0 auto;
+      position:relative;
+      top:290px;
+    }
+    .three-content{
+      position:relative;
+      top:-70px;
+      left:2px;
+      .three-content-top{
+        z-index:10;
+        width: 200px;
+        height: 149px;
+        margin: 0 auto;
+        background-position: center;
+        background-image: url('../../assets/images/product/funnel-top-normal.png');
+        background-repeat: no-repeat;
+        background-size: 97% 100%;
+        position:relative;
+        top:19px;
+        &-left{
+          top:75px;
+          left:40px;
+        }
+        &-right{
+          top:85px;
+          left:120px;
+        }
+      }
+      .three-content-top:hover{
+        background-image: url('../../assets/images/product/funnel-top-highlight.png');
+        .three-content-font-left{
+          font-size:44px;
+        }
+        .three-content-font-right{
+          font-size:24px;
+        }
+      }
+      .three-content-top:active{
+        background-image: url('../../assets/images/product/funnel-top-click.png');
+      }
+      .three-content-center{
+        z-index:6;
+        width: 293px;
+        height: 122px;
+        margin: 0 auto;
+        background-position: center;
+        background-image: url('../../assets/images/product/funnel-center-normal.png');
+        background-repeat: no-repeat;
+        background-size: 98% 100%;
+        position: absolute;;
+        top:139px;
+        left:92px;
+        &-left{
+          top:35px;
+          left:60px;
+        }
+        &-right{
+          top:45px;
+          left:190px;
+        }
+      }
+      .three-content-center:hover{
+        background-image: url('../../assets/images/product/funnel-center-highlight.png');
+        .three-content-font-left{
+          font-size:44px;
+        }
+        .three-content-font-right{
+          font-size:24px;
+        }
+      }
+      .three-content-center:active{
+        background-image: url('../../assets/images/product/funnel-center-click.png');
+      }
+      .three-content-bottom{
+        z-index:2;
+        width: 395px;
+        height: 148px;
+        margin: 0 auto;
+        background-position: center;
+        background-image: url('../../assets/images/product/funnel-bottom-normal.png');
+        background-repeat: no-repeat;
+        background-size: 98% 100%;
+        position: absolute;;
+        top:210px;
+        left:40px;
+        &-left{
+          top:45px;
+          left:90px;
+        }
+        &-right{
+          top:55px;
+          left:270px;
+        }
+      }
+      .three-content-bottom:hover{
+        background-image: url('../../assets/images/product/funnel-bottom-highlight.png');
+        .three-content-font-left{
+          font-size:44px;
+        }
+        .three-content-font-right{
+          font-size:24px;
+        }
+      }
+      .three-content-bottom:active{
+        background-image: url('../../assets/images/product/funnel-bottom-click.png');
+      }
+      .three-content-font-left{
+        color:#fff;
+        display:inline-block;
+        font-size:36px;
+        font-weight: bold;
+        transform:rotate(+18deg);
+        position: absolute;
+      }
+      
+      .three-content-font-right{
+        color:#fff;
+        display:inline-block;
+        font-weight: bold;
+        font-size:16px;
+        opacity: 0.8;
+        transform:rotate(-16deg);
+        position: absolute;
+      }
+      // .three-content-font-left:hover{
+      //   // color:black;
+      //   font-size:46px;
+      // }
+      // .three-content-font-right:hover{
+      //   // color:black;
+      //   font-size:20px;
+      // }
+    }
+  }
+
+  .center {
+
+    margin-top: 30px;
+    margin-left: 516px;
+
+    &-top {
+      width: 964px;
+      height: 548px;
+      margin-bottom: 20px;
+      // position: relative;
+      .left{
+        width: 54px;
+        height: 54px;
+       background-image: url('../../assets/images/product/left.png');
+       background-repeat: no-repeat;
+       background-size: 100% 100%;
+        position: absolute;
+        top: 30%;
+        z-index: 999;
+        &:hover{
+          background-image: url('../../assets/images/product/leftHeight.png');
+        }
+      }
+      .right{
+        width: 54px;
+        height: 54px;
+        background-image: url('../../assets/images/product/right.png');
+       background-repeat: no-repeat;
+       background-size: 100% 100%;
+        position: absolute;
+        top: 32%;
+        right: 24%;
+        z-index: 999;
+        &:hover{
+          background-image: url('../../assets/images/product/rightHeight.png');
+        }
+      }
+      ul {
+        width: 50%;
+        position: absolute;
+        // left: 8%;
+        top: 561px;
+        margin: 0 auto;
+
+        li {
+      
+          height: 35px;
+          float: left;
+          line-height: 35px;
+          font-size: 18px;
+          text-align: center;
+          // background-color: red;
+          i {
+            display: block;
+            width: 3px;      
+            height: 18px;
+            float: right;
+            background-color:#FFF;
+            position: relative;
+            top: -18px;
+            text-align: left;
+          }
+
+          &:last-child>i {
+            display: none;
+          }
+
+          span {
+            display:inline-block;
+              width: 54px;
+              height: 14px;
+            line-height: 73px;
+          }
+        }
+      }
+    }
+
+    &-bottom {
+      width: 964px;
+      height: 364px;
+      background-image: url('../../assets/images/product/964x364.png');
+      .tatal-view{
+        width: 100%; 
+        height: calc(50% - 19px);
+      }
+    }
+  }
+
+  .right {
+    position: absolute;
+    top: 117px;
+    right: 20px;
+
+    ul {
+      li {
+        width: 400px;
+        height: 298px;
+        margin-bottom: 20px;
+        background-image: url('../../assets/images/product/you400x298.png');
+
+      }
+    }
+  }
+}

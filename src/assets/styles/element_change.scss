@@ -1,0 +1,14 @@
+
+.el-carousel__arrow {
+  height: 60px !important;
+  width: 60px;
+  background-color: rgba(31,45,61,.5);
+
+  i {
+    font-size: 22px;
+  }
+}
+
+.el-carousel__arrow:hover {
+  background-color: rgba(31,45,61,.9);
+}

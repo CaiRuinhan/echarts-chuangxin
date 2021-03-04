@@ -1,0 +1,61 @@
+/**
+ * Created by jiangx36
+ */
+ 
+// 清除浮动
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+// 滚动条样式
+@mixin scrollBar {
+  &::-webkit-scrollbar-track-piece {
+    background: #DEE1E6;
+  }
+
+  &::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: rgb(154, 169, 204);
+    border-radius: 20px;
+  }
+}
+
+@mixin wrap {
+  margin: 0 auto;
+  max-width: 1200px;
+  min-width: 980px;
+  width: 100%;
+}
+
+@mixin relative {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+// 链接或文字按钮样式
+@mixin link($color: $link-color) {
+  color: $color;
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    color: mix(#FFF, $color,30%);
+    border-color: transparent;
+    background-color: transparent;
+  }
+  &:active {
+    color: mix(#000, $color, 30%);
+    border-color: transparent;
+    background-color: transparent;
+  }
+}
+

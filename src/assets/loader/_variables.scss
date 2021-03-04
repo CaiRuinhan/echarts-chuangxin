@@ -1,0 +1,49 @@
+/**
+ * Created by jiangx36
+ */
+
+// color
+$primary-color: #409EFF !default;
+$success-color: #67C23A !default;
+$warning-color: #E6A23C !default;
+$danger-color: #F56C6C !default;
+$info-color: #909399 !default;
+
+// Text
+$text-black: #000 !default;
+$text-gray-darker: #323233 !default;
+$text-gray-dark: #606266 !default;
+$text-gray: #909399 !default;
+$text-gray-light: #C0C4CC !default;
+$text-white: #fff !default;
+$text-white-light: #b0cbf4 !default;
+
+// Background 
+$bg-gray: #f8f8f8 !default;
+$bg-gray-light: #fafafa !default;
+$bg-white: #fff !default;
+
+// Z-index
+$zindex-navbar: 1000 !default;
+$zindex-dropdown: 1000 !default;
+$zindex-popover: 1060 !default;
+$zindex-tooltip: 1070 !default;
+$zindex-navbar-fixed: 1030 !default;
+$zindex-modal-background: 1040 !default;
+$zindex-modal: 1050 !default;
+$zindex-bottom-standby: 1035 !default;
+
+//base font-size for body content
+$font-size-big: 1.14rem !default; //16/14
+$font-size-base: 1rem !default;
+$font-size-small: 0.86rem !default; //12/14
+
+
+//Background color for `<body>`.
+$body-bg: $bg-gray !default;
+//Global text color on `<body>`.
+$text-color: $text-gray-darker !default;
+// Global border color
+$border-color: #E6E6E6 !default;
+
+$link-color: #3383FF;

@@ -1,0 +1,194 @@
+.home {
+  width: 1920px;
+  height: 1080px;
+  background-image: url('../../assets/images/home/bg1.png');
+  // background-color: #111e24;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  overflow: hidden;
+position: relative;
+  .top {
+    &-top {
+      .logo {
+
+        display: inline-block;
+        margin-top: 56px;
+        margin-left: 126px;
+        width: 182px;
+        height: 113px;
+        background-image: url('../../assets/images/home/182x113.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+      }
+
+      .title {
+        position: absolute;
+        top: 93px;
+        left: 411px;
+        width: 1273px;
+        height: 68px;
+        font-size: 68px;
+        font-weight: 400;
+        font-family: 'HYChengXingJ';
+        letter-spacing: 10px;
+        color: #FFFFFF;
+
+
+      }
+    }
+
+    &-bottom {
+      position: absolute;
+      top: 221px;
+      left: 234px;
+      // width: 1452px;
+      height: 72px;
+      font-size: 72px;
+      font-family: 'HYChengXingJ';
+      font-weight: 400;
+      color: #00E2FC;
+      line-height: 50px;
+      letter-spacing: 17px;
+
+      span {
+        padding-right: 40px;
+      }
+
+    }
+  }
+
+  .main {
+    .ball {
+      position: absolute;
+      left: 660px;
+      bottom: 10px;
+      background-image: url('../../assets/images/home/map1.gif');
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      // width: 749px;
+      // height: 743px;
+      width: 596px;
+      height: 596px;
+    }
+
+    ul {
+      li {
+        width: 167px;
+        height: 167px;
+
+        background-image: url('../../assets/images/home/190x190.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+
+        &:nth-child(1) {
+          position: absolute;
+          bottom: 105px;
+          left: 532px;
+          img{
+            width: 70%;
+            height: 70%;
+            position: relative;
+            top: 23px;
+            left: 28px;
+          }
+        }
+
+        &:nth-child(2) {
+          width: 173px;
+          height: 173px;
+          position: absolute;
+          bottom: 365px;
+          left: 457px;
+         img{
+          width: 70%;
+          height: 70%;
+          position: relative;
+          top: 23px;
+          left: 22px;
+         }
+
+        }
+
+        &:nth-child(3) {
+          width: 174px;
+          height: 174px;
+          position: absolute;
+          bottom: 595px;
+          left: 900px;
+          img{
+            width: 70%;
+          height: 70%;
+          position: relative;
+          top: 23px;
+          left: 30px;
+          }
+        }
+
+        &:nth-child(4) {
+          width: 173px;
+          height: 173px;
+          position: absolute;
+          bottom: 365px;
+          left: 1325px;
+          img{
+            width: 70%;
+          height: 70%;
+          position: relative;
+          top: 23px;
+          left: 22px;
+          
+          }
+        }
+
+        &:nth-child(5) {
+          position: absolute;
+          bottom: 105px;
+          left: 1236px;
+          img{
+            width: 70%;
+            height: 70%;
+            position: relative;
+            top: 23px;
+            left: 22px;
+         
+          }
+        }
+        &:hover{
+          background-image: url('../../assets/images/home/190height.png');
+          &:nth-child(1) {
+           
+            img{
+              content:url('../../assets/images/home/2height.png');
+            }
+          }
+          &:nth-child(2) {
+           
+            img{
+              content:url('../../assets/images/home/1height.png');
+            }
+          }
+          &:nth-child(3) {
+           
+            img{
+              content:url('../../assets/images/home/122height.png');
+            }
+          }
+          &:nth-child(4) {
+           
+            img{
+              content:url('../../assets/images/home/4height.png');
+            }
+          }
+          &:nth-child(5) {
+           
+            img{
+              content:url('../../assets/images/home/3height.png');
+            }
+          }
+        }
+      }
+
+    }
+  }
+}

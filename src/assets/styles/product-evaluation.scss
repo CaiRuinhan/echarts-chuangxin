@@ -1,0 +1,54 @@
+.left {
+  float: left;
+  margin-top: 30px;
+  margin-left: 20px;
+
+  &-top {
+    width: 1257px;
+    height: 454px;
+  }
+
+  &-bottom {
+    margin-top: 20px;
+    ul {
+      display: flex;
+
+      li {
+        flex-direction: column;
+        width: 620px;
+        height: 456px;
+        margin-right: 20px;
+        background-image: url('../../assets/images/product-evaluation/620x456.png');
+      }
+    }
+
+  }
+}
+.right{
+  margin-top: 30px;
+  margin-left: 1297px;
+   ul{
+     li{
+      width: 600px;
+      height: 456px;
+      margin-top: 20px;
+      background-image: url('../../assets/images/product-evaluation/600x456.png');
+      p {
+          padding:8px 20px 0px 32px;
+         font-size: 16px;
+         font-family: 'Microsoft YaHei';
+         font-weight: bold;
+         color: #FEFEFE;
+         opacity: 0.6;
+         span{
+          &:nth-child(2){
+            margin-left: 20px;
+          }
+          &:nth-child(3){
+            float:right;
+          }
+         }
+       }
+     }
+   }
+}
